@@ -1,13 +1,24 @@
-.title1 {
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
     font-size: 50px;
     text-align: center;
     font-family: 'Righteous', cursive;
+    background-color: cornflowerblue;
+    background-position: center;
+    height: 140px;
+    
 }
 
 .title2{
     font-family: 'Righteous', cursive;
     font-size: 30px;
-    margin-top: 40px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 50px;
 }
 
 .title2:hover{
@@ -22,6 +33,21 @@
     border-color: cornflowerblue;
     width: auto;
     height: auto;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.text1{
+        font-family: 'Righteous', cursive;
+        border: solid 5px;
+        border-color: cornflowerblue;
+        width: auto;
+        height: 250px;
+        margin-right: 60px;
+        font-size: 20px;
+        padding: 20px;
+
 }
 
 .containerproduit{
@@ -29,7 +55,9 @@
     justify-content: space-evenly;
     align-items: center;
     gap: 40px;
-    
+    margin-left: 200px;
+    margin-right: 200px;
+        
 }
 
 .containerinfo{
@@ -37,14 +65,26 @@
     justify-content: space-evenly;
     align-items: center;
     gap: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 60px;
 }
 
-.images{
-    border: solid;
-    border-color: darkorchid;
+footer{
+    background-color: cornflowerblue;
+    height: 100px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+   
 }
 
-
+body{
+    background-color: rgb(207, 207, 207);
+}
 
 
 
